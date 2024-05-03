@@ -1,4 +1,3 @@
-
 import streamlit as st
 from PIL import Image
 import numpy as np
@@ -48,7 +47,10 @@ class ImageClassifier(VideoTransformerBase):
         return frame
 
 def main():
-    st.title('Boycott Israelien  Products')
+    # Définir le titre de la page
+    st.title('Boycott Israelien Products')
+    st.image("c80b419800529ce56b1a89b37feea209.jpg", use_column_width=True)
+
 
     # Options pour choisir la source de l'image
     option = st.radio("Choose Image Source", ("Webcam", "Upload Image"))
