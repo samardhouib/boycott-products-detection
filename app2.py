@@ -56,7 +56,8 @@ def main():
     option = st.radio("Choose Image Source", ("Webcam", "Upload Image"))
 
     if option == "Webcam":
-        num_images_to_capture = st.number_input("Enter the number of images to capture", min_value=1, max_value=10, step=1, value=5)
+
+        num_images_to_capture = st.number_input("Enter the number of images to capture", min_value=1, max_value=10, step=1)
 
         # Démarrez le flux vidéo de la webcam
         webrtc_ctx = webrtc_streamer(key="example", video_transformer_factory=ImageClassifier)
