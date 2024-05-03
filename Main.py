@@ -22,7 +22,7 @@ if _name_ == "_main_":
     # Model Compiling
     model_compiling(model)
 
-    # Train Model
+    # Train 
     train_model(model, generators["train_generator"], generators["val_generator"])
 
     # Model Prediction
