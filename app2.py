@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import streamlit as st
 from PIL import Image
 import numpy as np
@@ -254,4 +254,4 @@ def main():
 
 if __name__ == "__main__":
     main()
->>>>>>> f7ca43918179d1ae9b9fed7338f8fb48d3e4a43c
+
