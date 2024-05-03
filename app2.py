@@ -48,7 +48,7 @@ class ImageClassifier(VideoTransformerBase):
 
 def main():
     # Définir le titre de la page
-    st.title('Boycott Israelien Products')
+    st.title('EthiConso')
     st.image("c80b419800529ce56b1a89b37feea209.jpg", use_column_width=True)
 
 
