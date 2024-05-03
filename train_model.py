@@ -1,5 +1,4 @@
-from tensorflow.keras.callbacks
-import ((ReduceLROnPlateau, ModelCheckpoint))
+from tensorflow.keras.callbacks import ReduceLROnPlateau, ModelCheckpoint
 
 def train_model(model, train_generator, val_generator):
     epochs = 200
